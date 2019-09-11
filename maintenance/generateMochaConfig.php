@@ -31,8 +31,20 @@ class GenerateMochaConfig extends Maintenance {
 				$this->fatalError( "--config only accepts .json files" );
 			}
 
-			$fileContent = file_get_contents( $IP . '/' . $configValue );
-			$config = json_decode( $fileContent, true );
+			$file = $IP . '/' . $configValue;
+
+			if ( file_exists( $file ) ) {
+				$fileContent = file_get_contents( $file );
+				$status = FormatJson::parse( $fileContent, FormatJson::FORCE_ASSOC );
+
+				if ( !$status->isOK() ) {
+					$this->fatalError( "Unable to parse $configValue due to: " . $status->getMessage() );
+				}
+
+				$config = $status->getValue();
+			} else {
+				$this->fatalError( "No file found at: $file" );
+			}
 		}
 
 		foreach ( $extensions as $extension ) {
@@ -60,7 +72,7 @@ class GenerateMochaConfig extends Maintenance {
 			$config['extension'] ?? [] ) );
 		$finalConfig['spec'] = array_unique( array_merge( $results, $config['spec'] ?? [] ) );
 
-		echo json_encode( $finalConfig );
+		echo FormatJson::encode( $finalConfig, true ) . "\n";
 	}
 }
 
