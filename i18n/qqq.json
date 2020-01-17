@@ -4,6 +4,6 @@
 			"Clara Andrew-Wani"
 		]
 	},
-	"generateMochaConfig": "The name of the extension",
-	"generateMochaConfig-desc": "{{desc|name=GenerateMochaConfig|url=}}"
+	"generatemochaconfig-extensionname": "The name of the extension",
+	"generatemochaconfig-desc": "{{desc|name=GenerateMochaConfig|url=}}"
 }

@@ -4,6 +4,6 @@
 			"Clara Andrew-Wani"
 		]
 	},
-	"generateMochaConfig": "GenerateMochaConfig",
-	"generateMochaConfig-desc": "A script that generates a JSON that can be used to run Mocha tests for all enabled extensions"
+	"generatemochaconfig-extensionname": "GenerateMochaConfig",
+	"generatemochaconfig-desc": "A script that generates a JSON that can be used to run Mocha tests for all enabled extensions"
 }
