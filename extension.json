@@ -5,11 +5,14 @@
 	"version": "1.0",
 	"namemsg": "generatemochaconfig-extensionname",
 	"descriptionmsg": "generatemochaconfig-desc",
-	"manifest_version": 1,
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.31.0"
+	},
 	"MessagesDirs": {
 		"GenerateMochaConfig": [
 			"i18n"
 		]
 	},
-	"type": "other"
+	"manifest_version": 2
 }
