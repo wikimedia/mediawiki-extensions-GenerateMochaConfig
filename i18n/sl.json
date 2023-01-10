@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"generatemochaconfig-desc": "Skript, ki ustvari JSON, ki se lahko uporablja za izvajanje preizkusov Mocha za vse aktivirane razširitve"
+}
