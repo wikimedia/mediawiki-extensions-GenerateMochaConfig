@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Justman10000"
+		]
+	},
+	"generatemochaconfig-desc": "Ein Skript, das ein JSON erzeugt, das verwendet werden kann, um Mocha-Tests für alle aktivierten Erweiterungen auszuführen"
+}
