@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nokeoo"
+		]
+	},
+	"generatemochaconfig-desc": "Kodas, kuris generuoja JSON, kuris gali būti naudojamas Mocha testams dėl visų įgalintų plėtinių"
+}
