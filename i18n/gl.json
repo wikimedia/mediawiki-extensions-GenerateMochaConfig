@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"generatemochaconfig-desc": "Unha escritura que xera un JSON que se pode usar para executar probas de Mocha para todas as extensións activadas"
+}
