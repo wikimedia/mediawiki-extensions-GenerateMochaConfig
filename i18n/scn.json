@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ajeje Brazorf"
+		]
+	},
+	"generatemochaconfig-desc": "Nu script chi ginira nu JSON ca pò èssiri usatu p'eseguiri dî test Mocha pi tutti li stinzioni attivati"
+}
