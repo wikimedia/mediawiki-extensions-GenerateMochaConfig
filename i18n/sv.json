@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Stefan2255"
+		]
+	},
+	"generatemochaconfig-desc": "Ett skript som genererar en JSON som kan användas för att köra Mocha-tester för alla aktiverade tillägg"
+}
