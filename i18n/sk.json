@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"generatemochaconfig-extensionname": "GenerateMochaConfig",
+	"generatemochaconfig-desc": "Skript, ktorý generuje JSON použiteľný na spustenie testov Mocha pre všetky povolené rozšírenia"
+}
